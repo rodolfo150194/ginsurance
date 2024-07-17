@@ -1,12 +1,6 @@
 {
+  "version": 2,
   "builds": [
-    {
-      "src": "build.sh",
-      "use": "@vercel/static-build",
-      "config": {
-        "distDir": "staticfiles"
-      }
-    },
     {
       "src": "gi_app/wsgi.py",
       "use": "@vercel/python",
@@ -14,6 +8,10 @@
         "maxLambdaSize": "15mb",
         "runtime": "python3.10"
       }
+    },
+    {
+      "src": "staticfiles/**",
+      "use": "@vercel/static"
     }
 
   ],
