@@ -1,0 +1,529 @@
+{% extends 'layout/base.html' %}
+{% load static %}
+{% block content %}
+    <div>
+        <section class="py-20">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-12 col-lg-7 mb-10 mb-lg-0">
+                        <div class="mw-lg-md position-relative">
+                            <img class="d-none d-xl-block position-absolute bottom-0 start-0 translate-middle-x"
+                                 style="width: 320px;" src="{% static 'cronos-assets/elements/light-squares.svg' %}" alt="">
+                            <img class="d-none d-xl-block position-absolute top-0 ms-20 start-100 translate-middle-x"
+                                 style="width: 160px;" src="{% static 'cronos-assets/elements/warning-group-square.svg' %}" alt="">
+                            <img class="img-fluid h-100" style="object-fit: cover;"
+                                 src="https://images.unsplash.com/photo-1542330952-bffc55e812b2?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=750&amp;q=80"
+                                 alt="">
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-5">
+                        <div class="mw-lg-md mx-auto">
+                            <h3 class="mb-14">Lorem ipsum dolor sit amet consectutar domor at elis</h3>
+                            <div class="d-flex align-items-start mb-6">
+                  <span class="me-4">
+                    <svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M12 21C16.9706 21 21 16.9706 21 12C21 7.02944 16.9706 3 12 3C7.02944 3 3 7.02944 3 12C3 16.9706 7.02944 21 12 21Z"
+                            stroke="#006251" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                      <path d="M8 11.5L11 14.5L17 8.5" stroke="#006251" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round"></path>
+                    </svg>
+                  </span>
+                                <div>
+                                    <h6 class="mb-3">Check of access</h6>
+                                    <p class="lead lh-lg text-muted mb-0">Take care to develop resources continually and
+                                        integrity them with previous projects.</p>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-start mb-6">
+                  <span class="me-4">
+                    <svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M12 21C16.9706 21 21 16.9706 21 12C21 7.02944 16.9706 3 12 3C7.02944 3 3 7.02944 3 12C3 16.9706 7.02944 21 12 21Z"
+                            stroke="#006251" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                      <path d="M8 11.5L11 14.5L17 8.5" stroke="#006251" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round"></path>
+                    </svg>
+                  </span>
+                                <div>
+                                    <h6 class="mb-3">Security in savings</h6>
+                                    <p class="lead lh-lg text-muted mb-0">Take care to develop resources continually and
+                                        integrity them with previous projects.</p>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-start">
+                  <span class="me-4">
+                    <svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M12 21C16.9706 21 21 16.9706 21 12C21 7.02944 16.9706 3 12 3C7.02944 3 3 7.02944 3 12C3 16.9706 7.02944 21 12 21Z"
+                            stroke="#006251" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                      <path d="M8 11.5L11 14.5L17 8.5" stroke="#006251" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round"></path>
+                    </svg>
+                  </span>
+                                <div>
+                                    <h6 class="mb-3">List of regular users</h6>
+                                    <p class="lead lh-lg text-muted mb-0">Take care to develop resources continually and
+                                        integrity them with previous projects.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-20 bg-primary-light">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-12 col-md-6 col-lg-3 mb-6 mb-lg-0">
+                        <div class="text-center">
+                            <svg class="mx-auto mb-6" width="40" height="40" viewbox="0 0 40 40" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                      d="M39 32H34V5C34 2.23858 31.7614 0 29 0H4C1.79086 0 0 1.79086 0 4C0 6.20914 1.79086 8 4 8H6V36C6 38.2091 7.79086 40 10 40H35C37.7614 40 40 37.7614 40 35V33C40 32.4477 39.5523 32 39 32ZM32 5V32H13C12.4477 32 12 32.4477 12 33V36C12 37.1046 11.1046 38 9.99999 38C8.89542 38 7.99999 37.1046 7.99999 36V4C7.99999 3.27143 7.8052 2.58835 7.46486 2H29C30.6568 2 32 3.34315 32 5ZM14 34V36C14 36.7286 13.8052 37.4117 13.4649 38H35C36.6568 38 38 36.6569 38 35V34H14ZM6 4V6H4C2.89543 6 2 5.10457 2 4C2 2.89543 2.89543 2 4 2C5.10457 2 6 2.89543 6 4ZM13 10C12.4477 10 12 9.55229 12 9C12 8.44771 12.4477 8 13 8H27C27.5523 8 28 8.44771 28 9C28 9.55229 27.5523 10 27 10H13ZM12 15C12 15.5523 12.4477 16 13 16H27C27.5523 16 28 15.5523 28 15C28 14.4477 27.5523 14 27 14H13C12.4477 14 12 14.4477 12 15ZM13 22C12.4477 22 12 21.5523 12 21C12 20.4477 12.4477 20 13 20H27C27.5523 20 28 20.4477 28 21C28 21.5523 27.5523 22 27 22H13ZM12 27C12 27.5523 12.4477 28 13 28H23C23.5523 28 24 27.5523 24 27C24 26.4477 23.5523 26 23 26H13C12.4477 26 12 26.4477 12 27Z"
+                                      fill="#006251"></path>
+                            </svg>
+                            <h3 class="mb-2">5095</h3>
+                            <p class="text-muted">Projects</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3 mb-6 mb-lg-0">
+                        <div class="text-center">
+                            <svg class="mx-auto mb-6" width="40" height="40" viewbox="0 0 40 40" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                      d="M-0.000488281 19.9994C-0.000488281 8.95339 8.95351 -0.000610352 19.9995 -0.000610352C31.0455 -0.000610352 39.9995 8.95339 39.9995 19.9994C39.9995 31.0454 31.0455 39.9994 19.9995 39.9994C8.95351 39.9994 -0.000488281 31.0454 -0.000488281 19.9994ZM26.1555 25.8814L33.0695 29.0234C33.7275 29.3234 34.3055 29.7574 34.7695 30.2914C36.8055 27.3734 37.9995 23.8254 37.9995 19.9994C37.9995 10.0594 29.9415 1.99939 19.9995 1.99939C10.0595 1.99939 1.99951 10.0594 1.99951 19.9994C1.99951 23.8254 3.19351 27.3734 5.23151 30.2914C5.69551 29.7574 6.27351 29.3234 6.93151 29.0234L13.8455 25.8814C11.5035 24.0514 9.99951 21.2014 9.99951 17.9994C9.99951 12.4774 14.4775 7.99939 19.9995 7.99939C25.5235 7.99939 29.9995 12.4774 29.9995 17.9994C29.9995 21.2014 28.4955 24.0514 26.1555 25.8814ZM19.9995 9.99939C15.5815 9.99939 11.9995 13.5814 11.9995 17.9994C11.9995 22.4174 15.5815 25.9994 19.9995 25.9994C24.4175 25.9994 27.9995 22.4174 27.9995 17.9994C27.9995 13.5814 24.4175 9.99939 19.9995 9.99939ZM19.9995 37.9994C14.6255 37.9994 9.80346 35.6454 6.50347 31.9114C6.81147 31.4494 7.24347 31.0774 7.75947 30.8454L15.9235 27.1334C17.1675 27.6894 18.5475 27.9994 19.9995 27.9994C21.4515 27.9994 22.8315 27.6894 24.0775 27.1334L32.2415 30.8454C32.7555 31.0774 33.1875 31.4494 33.4955 31.9114C30.1975 35.6454 25.3735 37.9994 19.9995 37.9994Z"
+                                      fill="#006251"></path>
+                            </svg>
+                            <h3 class="mb-2">1350</h3>
+                            <p class="text-muted">Clients</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3 mb-6 mb-md-0">
+                        <div class="text-center">
+                            <svg class="mx-auto mb-6" width="32" height="40" viewbox="0 0 32 40" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                      d="M0 5C0 2.23858 2.23858 0 5 0H31C31.5523 0 32 0.447715 32 1C32 1.55228 31.5523 2 31 2H5C3.34315 2 2 3.34315 2 5C2 6.65685 3.34315 8 5 8H27C29.7614 8 32 10.2386 32 13V35C32 37.7614 29.7614 40 27 40H9C4.02944 40 0 35.9706 0 31V5ZM2 31C2 34.866 5.13401 38 9 38H27C28.6569 38 30 36.6569 30 35V13C30 11.3431 28.6569 10 27 10H5C3.87439 10 2.83566 9.62806 2 9.00037V31ZM4 5C4 5.55228 4.44772 6 5 6H31C31.5523 6 32 5.55228 32 5C32 4.44772 31.5523 4 31 4H5C4.44772 4 4 4.44772 4 5ZM8 17C8 16.4477 8.44771 16 9 16H23C23.5523 16 24 16.4477 24 17V23C24 23.5523 23.5523 24 23 24H9C8.44771 24 8 23.5523 8 23V17ZM22 22H10V18H22V22ZM9 28C8.44771 28 8 27.5523 8 27C8 26.4477 8.44771 26 9 26H23C23.5523 26 24 26.4477 24 27C24 27.5523 23.5523 28 23 28H9ZM8 31C8 31.5523 8.44771 32 9 32H17C17.5523 32 18 31.5523 18 31C18 30.4477 17.5523 30 17 30H9C8.44771 30 8 30.4477 8 31Z"
+                                      fill="#006251"></path>
+                            </svg>
+                            <h3 class="mb-2">15+</h3>
+                            <p class="text-muted">Years of experience</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="text-center">
+                            <svg class="mx-auto mb-6" width="32" height="32" viewbox="0 0 32 32" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                      d="M22.1557 17.8814L29.069 21.0238C30.854 21.8352 32 23.6149 32 25.5757V27C32 29.7614 29.7614 32 27 32H5C2.23858 32 0 29.7614 0 27V25.5757C0 23.6149 1.14601 21.8352 2.93099 21.0238L9.84432 17.8814C7.50418 16.0511 6 13.2012 6 10C6 4.47715 10.4772 0 16 0C21.5228 0 26 4.47715 26 10C26 13.2012 24.4958 16.0511 22.1557 17.8814ZM11.9225 19.1337L3.75859 22.8446C2.68761 23.3314 2 24.3992 2 25.5756V27C2 28.6569 3.34315 30 5 30H27C28.6569 30 30 28.6569 30 27V25.5756C30 24.3992 29.3124 23.3314 28.2414 22.8446L20.0775 19.1337C18.8322 19.6904 17.4523 20 16 20C14.5477 20 13.1678 19.6904 11.9225 19.1337ZM24 10C24 14.4183 20.4183 18 16 18C11.5817 18 8 14.4183 8 10C8 5.58172 11.5817 2 16 2C20.4183 2 24 5.58172 24 10Z"
+                                      fill="#006251"></path>
+                            </svg>
+                            <h3 class="mb-2">40+</h3>
+                            <p class="text-muted">Team Members</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-20">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-12 col-lg-5 mb-10 mb-lg-0">
+                        <div class="mw-lg-md">
+                            <h3 class="mb-14">Lorem ipsum dolor sit amet consectutar domor at elis</h3>
+                            <div class="d-flex align-items-start mb-6">
+                  <span class="me-4">
+                    <svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M12 21C16.9706 21 21 16.9706 21 12C21 7.02944 16.9706 3 12 3C7.02944 3 3 7.02944 3 12C3 16.9706 7.02944 21 12 21Z"
+                            stroke="#006251" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                      <path d="M8 11.5L11 14.5L17 8.5" stroke="#006251" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round"></path>
+                    </svg>
+                  </span>
+                                <div>
+                                    <h6 class="mb-3">Check of access</h6>
+                                    <p class="lead lh-lg text-muted mb-0">Take care to develop resources continually and
+                                        integrity them with previous projects.</p>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-start mb-6">
+                  <span class="me-4">
+                    <svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M12 21C16.9706 21 21 16.9706 21 12C21 7.02944 16.9706 3 12 3C7.02944 3 3 7.02944 3 12C3 16.9706 7.02944 21 12 21Z"
+                            stroke="#006251" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                      <path d="M8 11.5L11 14.5L17 8.5" stroke="#006251" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round"></path>
+                    </svg>
+                  </span>
+                                <div>
+                                    <h6 class="mb-3">Security in savings</h6>
+                                    <p class="lead lh-lg text-muted mb-0">Take care to develop resources continually and
+                                        integrity them with previous projects.</p>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-start">
+                  <span class="me-4">
+                    <svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M12 21C16.9706 21 21 16.9706 21 12C21 7.02944 16.9706 3 12 3C7.02944 3 3 7.02944 3 12C3 16.9706 7.02944 21 12 21Z"
+                            stroke="#006251" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                      <path d="M8 11.5L11 14.5L17 8.5" stroke="#006251" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round"></path>
+                    </svg>
+                  </span>
+                                <div>
+                                    <h6 class="mb-3">List of regular users</h6>
+                                    <p class="lead lh-lg text-muted mb-0">Take care to develop resources continually and
+                                        integrity them with previous projects.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-7">
+                        <div class="mw-lg-md ms-lg-auto position-relative">
+                            <img class="d-none d-xl-block position-absolute start-0 translate-middle-x"
+                                 style="width: 320px;" src="{% static 'cronos-assets/elements/light-squares.svg' %}" alt="">
+                            <img class="d-none d-xl-block position-absolute top-0 ms-20 start-100 translate-middle-x"
+                                 style="width: 160px;" src="{% static 'cronos-assets/elements/warning-group-square.svg' %}" alt="">
+                            <img class="img-fluid h-100" style="object-fit: cover;"
+                                 src="https://images.unsplash.com/photo-1542330952-bffc55e812b2?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=750&amp;q=80"
+                                 alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-20">
+            <div class="container">
+                <h6 class="mb-8 fw-normal text-center">Trusted by brands all over the world</h6>
+                <div class="row align-items-center">
+                    <div class="col-12 col-md-4 col-lg-2 mb-6 mb-lg-0">
+                        <div class="bg-light-light py-14">
+                            <img class="d-block mx-auto img-fluid" src="{% static 'cronos-assets/logos/brands/slack-color.svg' %}"
+                                 alt="">
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 col-lg-2 mb-6 mb-lg-0">
+                        <div class="bg-light-light py-14">
+                            <img class="d-block mx-auto img-fluid" src="{% static 'cronos-assets/logos/brands/dropbox-color.svg' %}"
+                                 alt="">
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 col-lg-2 mb-6 mb-lg-0">
+                        <div class="bg-light-light py-14">
+                            <img class="d-block mx-auto img-fluid" src="{% static 'cronos-assets/logos/brands/spotify-color.svg' %}"
+                                 alt="">
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 col-lg-2 mb-6 mb-md-0">
+                        <div class="bg-light-light py-14">
+                            <img class="d-block mx-auto img-fluid" src="{% static 'cronos-assets/logos/brands/amazon-color.svg' %}"
+                                 alt="">
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 col-lg-2 mb-6 mb-md-0">
+                        <div class="bg-light-light py-14">
+                            <img class="d-block mx-auto img-fluid" src="{% static 'cronos-assets/logos/brands/netflix-color.svg' %}"
+                                 alt="">
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 col-lg-2">
+                        <div class="bg-light-light py-14">
+                            <img class="d-block mx-auto img-fluid" src="{% static 'cronos-assets/logos/brands/stripe-color.svg' %}"
+                                 alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-20 position-relative">
+            <img class="d-none d-lg-block position-absolute top-0 start-0 img-fluid"
+                 src="{% static 'cronos-assets/elements/left-top.svg' %}" alt="">
+            <img class="d-none d-lg-block position-absolute bottom-0 start-0"
+                 src="{% static 'cronos-assets/elements/left-bottom.svg' %}" alt="">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-12 col-lg-6 mb-10 mb-lg-0">
+                        <div class="mw-lg">
+                            <h2 class="mb-6">Trusted by brands all over the world</h2>
+                            <p class="mw-md lead lh-lg text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                elit. Pellentesque efficitur nisl sodales egestas lobortis.</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6">
+                        <div style="margin-left: 149px;">
+                            <div class="d-flex justify-content-center align-items-center bg-light-light"
+                                 style="width: 149px; height: 149px;">
+                                <img class="img-fluid" src="{% static 'cronos-assets/logos/brands/stripe-color.svg' %}" alt="">
+                            </div>
+                        </div>
+                        <div class="d-flex">
+                            <div>
+                                <div class="d-flex justify-content-center align-items-center"
+                                     style="width: 149px; height: 149px;">
+                                    <img class="d-block mx-auto img-fluid" style="height: 24px;"
+                                         src="{% static 'cronos-assets/logos/brands/slack-color.svg' %}" alt="">
+                                </div>
+                                <div class="d-flex justify-content-center align-items-center bg-light-light"
+                                     style="width: 149px; height: 149px;">
+                                    <img class="d-block mx-auto img-fluid" style="height: 23px;"
+                                         src="{% static 'cronos-assets/logos/brands/netflix-color.svg' %}" alt="">
+                                </div>
+                            </div>
+                            <div class="w-100 d-flex justify-content-center align-items-center bg-light">
+                                <img class="d-block mx-auto img-fluid" style="height: 32px;"
+                                     src="{% static 'cronos-assets/logos/brands/spotify-color.svg' %}" alt="">
+                            </div>
+                        </div>
+                        <div class="d-flex flex-wrap justify-content-end">
+                            <div class="d-flex justify-content-center align-items-center bg-light-light"
+                                 style="width: 149px; height: 149px;">
+                                <img class="d-block mx-auto img-fluid" style="height: 24px;"
+                                     src="{% static 'cronos-assets/logos/brands/dropbox-color.svg' %}" alt="">
+                            </div>
+                            <div class="d-flex justify-content-center align-items-center"
+                                 style="width: 149px; height: 149px;">
+                                <img class="d-block mx-auto img-fluid" style="height: 23px;"
+                                     src="{% static 'cronos-assets/logos/brands/amazon-color.svg' %}" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-20 bg-primary"
+                 style="background-image: url('cronos-assets/elements/lines3.svg'); background-repeat: no-repeat; background-size: cover;">
+            <div class="container">
+                <div class="mw-4xl mx-auto text-center">
+                    <span class="badge bg-primary-light">New feature</span>
+                    <h2 class="mt-6 mb-4 text-white">Take quick action that increases your brand's regular profit.</h2>
+                    <p class="mb-6 mw-2xl mx-auto lead text-light">If you have ever wondered how to develop your brand,
+                        this is the place for you. Take a big step forward in growing your business with this great
+                        tool.</p>
+                    <a class="btn btn-secondary d-block d-md-inline-block mb-2 mb-md-0 me-md-4" href="#">Activate your
+                        demo</a><a class="btn btn-dark d-block d-md-inline-block" href="#">Share with friends</a>
+                </div>
+            </div>
+        </section>
+
+        <section class=" py-20">
+            <div class="container">
+                <div class="mw-5xl mx-auto text-center mb-12"><span class="badge bg-primary-light">Lorem Ipsum</span>
+                    <h2 class="mt-6">Lorem ipsum dolor sit amet consectutar domor at elis</h2></div>
+                <div class="mx-auto mb-8">
+                    <div class="row justify-content-lg-center">
+                        <div class="col-6 col-md-4 col-lg-2 mb-3">
+                            <button class="btn btn-primary w-100 py-8"><span>              <svg class="mx-auto"
+                                                                                                width="24" height="24"
+                                                                                                viewbox="0 0 24 24"
+                                                                                                fill="none"
+                                                                                                xmlns="http://www.w3.org/2000/svg">                <path
+                                    fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M2 12C2 17.5228 6.47715 22 12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12ZM14.665 8C14.1428 5.03217 13.0819 3 12 3C10.9181 3 9.85717 5.03217 9.33498 8H14.665ZM3.93552 8H8.31375C8.65216 5.96286 9.24889 4.27723 10.028 3.21671C7.35208 3.81488 5.1259 5.60466 3.93552 8ZM8.1719 15H3.51212C3.18046 14.0617 3 13.0519 3 12C3 10.9481 3.18046 9.93834 3.51212 9H8.1719C8.05949 9.94765 8 10.9555 8 12C8 13.0445 8.05949 14.0524 8.1719 15ZM10.028 20.7833C7.35208 20.1851 5.1259 18.3953 3.93552 16H8.31375C8.65216 18.0371 9.24889 19.7228 10.028 20.7833ZM20.4879 15C20.8195 14.0617 21 13.0519 21 12C21 10.9481 20.8195 9.93834 20.4879 9H15.8281C15.9405 9.94765 16 10.9555 16 12C16 13.0445 15.9405 14.0524 15.8281 15H20.4879ZM15.6862 16H20.0645C18.8741 18.3953 16.6479 20.1851 13.972 20.7833C14.7511 19.7228 15.3478 18.0371 15.6862 16ZM9.1844 15H14.8156C14.934 14.0624 15 13.0528 15 12C15 10.9472 14.934 9.93761 14.8156 9H9.1844C9.06598 9.93761 9 10.9472 9 12C9 13.0528 9.06598 14.0624 9.1844 15ZM12 21C10.9181 21 9.85717 18.9678 9.33498 16H14.665C14.1428 18.9678 13.0819 21 12 21ZM13.972 3.21671C16.6479 3.81488 18.8741 5.60466 20.0645 8H15.6862C15.3478 5.96286 14.7511 4.27723 13.972 3.21671Z"
+                                    fill="white"></path>              </svg>            </span>            <h6
+                                    class="text-white mb-0 mt-2">General</h6></button>
+                        </div>
+                        <div class="col-6 col-md-4 col-lg-2 mb-3">
+                            <button class="btn w-100 py-8 btn-primary-light"><span>              <svg class="mx-auto"
+                                                                                                      width="24"
+                                                                                                      height="24"
+                                                                                                      viewbox="0 0 24 24"
+                                                                                                      fill="none"
+                                                                                                      xmlns="http://www.w3.org/2000/svg">                <path
+                                    fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M2 12C2 17.5228 6.47715 22 12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12ZM16 12.5101V20.0645C18.9634 18.5918 21 15.5337 21 12C21 7.02944 16.9706 3 12 3C7.02944 3 3 7.02944 3 12C3 15.5337 5.03656 18.5918 8 20.0645V12.5101C7.99835 12.4316 8.01523 12.3515 8.05279 12.2764C8.05834 12.2653 8.06425 12.2545 8.0705 12.244L11.5681 6.24806C11.761 5.91731 12.239 5.91731 12.4319 6.24806L15.9295 12.244C15.9357 12.2545 15.9417 12.2653 15.9472 12.2764C15.9848 12.3515 16.0016 12.4316 16 12.5101ZM12 7.49232L14.7984 12.2896C13.9812 12.6598 13.0278 12.5843 12.2774 12.084C12.1094 11.972 11.8906 11.972 11.7226 12.084C10.9722 12.5843 10.0188 12.6598 9.20157 12.2896L12 7.49232ZM12 13.0835C12.9226 13.5855 14.0191 13.6597 15 13.2882V20.4879C14.0617 20.8195 13.0519 21 12 21C10.9481 21 9.93834 20.8195 9 20.4879V13.2882C9.98092 13.6597 11.0774 13.5855 12 13.0835Z"
+                                    fill="#66A197"></path>              </svg>            </span>            <h6
+                                    class="mb-0 mt-2 text-primary">Tool</h6></button>
+                        </div>
+                        <div class="col-6 col-md-4 col-lg-2 mb-3">
+                            <button class="btn w-100 py-8 btn-primary-light"><span>              <svg class="mx-auto"
+                                                                                                      width="24"
+                                                                                                      height="24"
+                                                                                                      viewbox="0 0 24 24"
+                                                                                                      fill="none"
+                                                                                                      xmlns="http://www.w3.org/2000/svg">                <path
+                                    fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M5.54138 16.0349C5.60627 16.0349 5.66827 16.0225 5.72515 16H19.5C20.8807 16 22 14.8807 22 13.5V6.5C22 5.11929 20.8807 4 19.5 4H4.5C3.11929 4 2 5.11929 2 6.5V13.5C2 14.8807 3.11929 16 4.5 16H5.35761C5.4145 16.0225 5.4765 16.0349 5.54138 16.0349ZM6 5.5V5H18V5.5C18 6.88071 19.1193 8 20.5 8H21V12H20.5C19.1193 12 18 13.1193 18 14.5V15H6.04138V14.5C6.04138 13.1193 4.92209 12 3.54138 12H3V8H3.5C4.88071 8 6 6.88071 6 5.5ZM4.5 5H5V5.5C5 6.32843 4.32843 7 3.5 7H3V6.5C3 5.67157 3.67157 5 4.5 5ZM5.04138 15V14.5C5.04138 13.6716 4.36981 13 3.54138 13H3V13.5C3 14.3284 3.67157 15 4.5 15H5.04138ZM19 15H19.5C20.3284 15 21 14.3284 21 13.5V13H20.5C19.6716 13 19 13.6716 19 14.5V15ZM19 5.5V5H19.5C20.3284 5 21 5.67157 21 6.5V7H20.5C19.6716 7 19 6.32843 19 5.5ZM12 14C9.79086 14 8 12.2091 8 10C8 7.79086 9.79086 6 12 6C14.2091 6 16 7.79086 16 10C16 12.2091 14.2091 14 12 14ZM15 10C15 11.6569 13.6569 13 12 13C10.3431 13 9 11.6569 9 10C9 8.34315 10.3431 7 12 7C13.6569 7 15 8.34315 15 10ZM2.5 18C2.22386 18 2 17.7761 2 17.5C2 17.2239 2.22386 17 2.5 17H21.5C21.7761 17 22 17.2239 22 17.5C22 17.7761 21.7761 18 21.5 18H2.5ZM2 19.5C2 19.7761 2.22386 20 2.5 20H21.5C21.7761 20 22 19.7761 22 19.5C22 19.2239 21.7761 19 21.5 19H2.5C2.22386 19 2 19.2239 2 19.5Z"
+                                    fill="#66A197"></path>              </svg>            </span>            <h6
+                                    class="mb-0 mt-2 text-primary">Payments</h6></button>
+                        </div>
+                        <div class="col-6 col-md-6 col-lg-2 mb-3">
+                            <button class="btn w-100 py-8 btn-primary-light"><span>              <svg class="mx-auto"
+                                                                                                      width="24"
+                                                                                                      height="24"
+                                                                                                      viewbox="0 0 24 24"
+                                                                                                      fill="none"
+                                                                                                      xmlns="http://www.w3.org/2000/svg">                <path
+                                    fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M4.5 3H19.5C20.881 3 22 4.119 22 5.5V18.5C22 19.881 20.881 21 19.5 21H4.5C3.119 21 2 19.881 2 18.5V5.5C2 4.119 3.119 3 4.5 3ZM21 8.5C20.582 8.186 20.063 8 19.5 8H18.95C18.718 6.859 17.709 6 16.5 6H7.5C6.291 6 5.282 6.859 5.05 8H4.5C3.671 8 3 7.329 3 6.5V5.5C3 4.671 3.671 4 4.5 4H19.5C20.329 4 21 4.671 21 5.5V8.5ZM6.085 8C6.291 7.417 6.847 7 7.5 7H16.5C17.153 7 17.709 7.417 17.915 8H6.085ZM17.5 12H21V10.5C21 9.672 20.329 9 19.5 9H4.5C3.937 9 3.418 8.814 3 8.5V18.5C3 19.328 3.671 20 4.5 20H19.5C20.329 20 21 19.328 21 18.5V17H17.5C16.119 17 15 15.881 15 14.5C15 13.119 16.119 12 17.5 12ZM21 16H17.5C16.671 16 16 15.328 16 14.5C16 13.672 16.671 13 17.5 13H21V16Z"
+                                    fill="#66A197"></path>              </svg>            </span>            <h6
+                                    class="mb-0 mt-2 text-primary">Returns</h6></button>
+                        </div>
+                        <div class="col-6 col-md-6 col-lg-2 mb-3">
+                            <button class="btn w-100 py-8 btn-primary-light"><span>              <svg class="mx-auto"
+                                                                                                      width="24"
+                                                                                                      height="24"
+                                                                                                      viewbox="0 0 24 24"
+                                                                                                      fill="none"
+                                                                                                      xmlns="http://www.w3.org/2000/svg">                <path
+                                    fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M3 5.5C3 4.11929 4.11929 3 5.5 3H18.5C19.8807 3 21 4.11929 21 5.5V18.5C21 19.8807 19.8807 21 18.5 21H5.5C4.11929 21 3 19.8807 3 18.5V5.5ZM20 5.5V17H4V5.5C4 4.67157 4.67157 4 5.5 4H18.5C19.3284 4 20 4.67157 20 5.5ZM4 18.5V18H20V18.5C20 19.3284 19.3284 20 18.5 20H5.5C4.67157 20 4 19.3284 4 18.5ZM14.1877 12.1096L12 13.8597L9.81235 12.1096C9.59672 11.9371 9.28207 11.972 9.10957 12.1877C8.93706 12.4033 8.97202 12.7179 9.18765 12.8904L11.6877 14.8904C11.8703 15.0365 12.1297 15.0365 12.3123 14.8904L14.8123 12.8904C15.028 12.7179 15.0629 12.4033 14.8904 12.1877C14.7179 11.972 14.4033 11.9371 14.1877 12.1096Z"
+                                    fill="#66A197"></path>              </svg>            </span>            <h6
+                                    class="mb-0 mt-2 text-primary">Extensions</h6></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="mw-4xl mx-auto">
+                    <ul class="list-unstyled">
+                        <li class="px-6 px-md-16 py-16 mb-6 border">
+                            <button class="btn px-0 w-100 d-flex justify-content-between align-items-center text-start">
+                                <h6 class="text-muted">Fusce eget nunc et libero accumsan rutrum quis nec lectus?</h6>
+                                <svg class="flex-shrink-0" width="8" height="4" viewbox="0 0 8 4" fill="none"
+                                     xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M7.17461 3.87962C7.38428 4.05933 7.69993 4.03505 7.87964 3.82539C8.05935 3.61572 8.03507 3.30007 7.8254 3.12036L4.3254 0.120363C4.13816 -0.040133 3.86186 -0.040133 3.67461 0.120363L0.174613 3.12036C-0.0350495 3.30007 -0.0593303 3.61572 0.120381 3.82539C0.300092 4.03505 0.615742 4.05933 0.825405 3.87962L4.00001 1.15853L7.17461 3.87962Z"
+                                          fill="#001410"></path>
+                                </svg>
+                            </button>
+                            <p class="mt-6 mw-2xl lead lh-lg text-muted">Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit. Nullam euismod orci sed tristique placerat. Fusce in ligula urna. Fusce
+                                eget nunc et libero accumsan rutrum quis nec lectus. Quisque luctus sem nibh, quis
+                                ornare neque consectetur varius. Maecenas rhoncus consectetur rutrum.</p></li>
+                        <li class="px-6 px-md-16 py-16 mb-6 border">
+                            <button class="btn px-0 w-100 d-flex justify-content-between align-items-center text-start">
+                                <h6 class="text-muted">Donec sed leo sit amet ante ornare laoreet in quis est?</h6>
+                                <svg class="flex-shrink-0" width="8" height="4" viewbox="0 0 8 4" fill="none"
+                                     xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M7.17461 0.120381C7.38428 -0.0593303 7.69993 -0.0350495 7.87964 0.174613C8.05935 0.384276 8.03507 0.699926 7.8254 0.879637L4.3254 3.87964C4.13816 4.04013 3.86186 4.04013 3.67461 3.87964L0.174613 0.879637C-0.0350495 0.699926 -0.0593303 0.384276 0.120381 0.174613C0.300092 -0.0350495 0.615742 -0.0593303 0.825405 0.120381L4.00001 2.84147L7.17461 0.120381Z"
+                                          fill="#001410"></path>
+                                </svg>
+                            </button>
+                            <p class="d-none mt-6 mw-2xl lead lh-lg text-muted">Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit. Vivamus quis ultricies est. Duis nec hendrerit magna. Ut vel orci
+                                gravida, hendrerit enim non, gravida turpis. Praesent non lectus porttitor, scelerisque
+                                nulla nec, ornare neque. Integer massa libero, ornare ut leo nec, scelerisque rutrum
+                                elit. Morbi et massa id ipsum lobortis rhoncus. Aenean sit amet porta nulla, quis varius
+                                risus. Suspendisse ultrices ut lectus non laoreet. Etiam ornare laoreet tortor quis
+                                porttitor. Suspendisse tempus erat non dui volutpat eleifend.</p></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-20">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-12 col-lg-6 mb-10 mb-lg-0 p-10">
+                        <div class="mw-lg-md mb-10 mb-lg-24"><h2 class="mb-4">Get questions?</h2>
+                            <p class="lead lh-lg text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Pellentesque massa nibh, pulvinar vitae aliquet nec, accumsan aliquet orci.</p></div>
+                        <div class="row">
+                            <div class="col-12 col-md-6 mb-5 mb-md-0">
+                                <svg width="48" height="48" viewbox="0 0 48 48" fill="none"
+                                     xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M18 10L6 6V38L18 42M18 10L30 6M18 10V42M30 6L42 10V42L30 38M30 6V38M30 38L18 42"
+                                          stroke="#006251" stroke-width="1.5" stroke-linecap="round"
+                                          stroke-linejoin="round"></path>
+                                </svg>
+                                <h6 class="mt-3 mb-2">Visit Us</h6>
+                                <p class="text-muted mb-1">1686, Geraldine Lane</p>
+                                <p class="text-muted mb-0">New York, NY 10013</p></div>
+                            <div class="col-12 col-md-6">
+                                <svg width="48" height="48" viewbox="0 0 48 48" fill="none"
+                                     xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M41.9988 32.9533V38.3729C42.0072 40.4446 40.1444 42.1746 38.0528 41.9859C20 42 6 27.87 6.01413 9.93837C5.82575 7.85789 7.54715 6.00212 9.61622 6.00018H15.0465C15.9249 5.99155 16.7766 6.302 17.4426 6.87368C19.3363 8.49899 20.5543 14.0155 20.0856 16.2086C19.7197 17.9207 17.9938 19.1186 16.8204 20.2897C19.3972 24.8124 23.1493 28.5571 27.6809 31.1288C28.8544 29.9577 30.0546 28.2351 31.7702 27.87C33.9709 27.4016 39.523 28.6213 41.1418 30.5281C41.7158 31.2042 42.0208 32.0674 41.9988 32.9533Z"
+                                          stroke="#006251" stroke-width="1.5" stroke-linecap="round"
+                                          stroke-linejoin="round"></path>
+                                </svg>
+                                <h6 class="mt-3 mb-2">Contact Us</h6>
+                                <p class="text-muted mb-1">hello@wireframes.org</p>
+                                <p class="text-muted mb-0">+ 7-843-672-431</p></div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6 position-relative">
+                        <div class="position-relative py-12 px-10 bg-white shadow-lg text-center">
+                            <form action="#"><span class="badge bg-primary-light">Lorem ipsum</span>
+                                <h3 class="mt-6 mb-6">Lorem ipsum dolor sit amet consectutar</h3>            <input
+                                        class="form-control mb-6" type="text" placeholder="Name"> <input
+                                        class="form-control mb-6" type="email" placeholder="E-mail address"> <textarea
+                                        class="form-control mb-6" name="message" cols="30" rows="10"
+                                        placeholder="Your Message..."></textarea>
+                                <button class="btn btn-secondary w-100">Send</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="position-relative py-20">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-12 col-lg-auto me-lg-8">
+
+                    </div>
+                    <div class="col-12 col-lg-8 mx-auto">
+                        <div class="row align-items-center">
+                            <div class="col-12 col-lg-6 mb-10 mb-lg-0">
+                                <h2 class="text-primary mb-2">Danny Bailey</h2>
+                                <h3 class="mb-4">CEO &amp; Founder</h3>
+                                <p class="lead lh-lg text-muted mb-6">If you have ever wondered how to develop your
+                                    brand, this is the place for you. Take a big step forward in growing your business
+                                    with this great tool.</p>
+                                <div class="d-flex align-items-center">
+                                    <a class="me-8" href="#">
+                                        <img src="{% static 'cronos-assets/logos/brands/facebook.svg' %}" alt="">
+                                    </a>
+                                    <a class="me-8" href="#">
+                                        <img src="{% static 'cronos-assets/logos/brands/twitter.svg' %}" alt="">
+                                    </a>
+                                    <a class="me-8" href="#">
+                                        <img src="{% static 'cronos-assets/logos/brands/Instagram.svg' %}" alt="">
+                                    </a>
+                                    <a href="#">
+                                        <img src="{% static 'cronos-assets/logos/brands/LinkedIn.svg' %}" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg-6">
+                                <img class="mb-5 img-fluid h-100" style="object-fit: cover;"
+                                     src="https://images.unsplash.com/photo-1568602471122-7832951cc4c5?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=750&amp;q=80"
+                                     alt="">
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-auto ms-lg-8">
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-20">
+            <div class="container">
+                <div class="py-16 py-lg-24 px-10 px-lg-28 bg-primary position-relative">
+                    <img class="d-none d-md-block position-absolute top-0 start-0 translate-middle"
+                         src="{% static 'cronos-assets/elements/left-squares.svg' %}" alt="">
+                    <img class="d-none d-md-block position-absolute top-100 start-100 translate-middle"
+                         src="{% static 'cronos-assets/elements/right-squares.svg' %}" alt="">
+                    <div class="row align-items-center">
+                        <div class="col-12 col-lg-7 mb-6 mb-lg-0">
+                            <h3 class="fw-bold text-white mb-4">Sign up to our newsletter</h3>
+                            <p class="text-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        </div>
+                        <div class="col-12 col-lg-5">
+                            <form action="#">
+                                <div class="input-group">
+                                    <input class="form-control" type="email" placeholder="E-mail address">
+                                    <button class="btn btn-secondary">Sign Up</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+{% endblock %}

@@ -1,0 +1,19 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>G Insurance</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap">
+    <link rel="stylesheet" href="{% static 'css/bootstrap/bootstrap.min.css' %}">
+</head>
+<body>
+    {% include 'layout/header.html' %}
+    {% block content %}{% endblock %}
+    {% include 'layout/footer.html' %}
+    <script src="{% static 'js/bootstrap/bootstrap.bundle.min.js' %}"></script>
+    <script src="{% static 'js/main.js' %}"></script>
+</body>
+</html>
